@@ -3,6 +3,7 @@ package com.test.medaiplayer.app;
 import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends Activity implements View.OnClickListener{
@@ -22,6 +23,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-
+        Log.d("","");
     }
 }

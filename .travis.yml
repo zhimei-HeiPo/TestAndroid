@@ -8,5 +8,13 @@ android:
     - extra-android-m2repository
 script:
 - ./gradlew :app:assembleRelease
+deploy:
+  provider: releases
+  user: "zhimei-HeiPo"
+  password: "zxb_571533"
+  file: app/build/outputs/apk/app-release.apk
+  skip_cleanup: true
+  on:
+    tags: true
 
 
