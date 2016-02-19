@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/HeiPo/WorkSpace/JAVA/zm_src/TestAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jar="/Users/HeiPo/WorkSpace/adt-bundle/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="/Users/HeiPo/WorkSpace/JAVA/zm_src/TestAndroid/app/build/intermediates/pre-dexed/debug/classes-07a418d5e0060e82da68de57869f37604ea8af76.jar" />
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-15ddeceafbd3f170aa414799ac028e273ed67f25.jar" />
     </item>
     <item
-        jar="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jar="/Users/HeiPo/WorkSpace/vagrant/Centos65/TestAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/pre-dexed/debug/classes-b4d3d83fc55a53d556ec107a795fc0633f0f9396.jar" />
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/HeiPo/WorkSpace/vagrant/Centos65/TestAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-719e36f2f8c9a808b9092fec900d5c93dd3ea551.jar" />
     </item>
     <item
-        jar="/Users/HeiPo/WorkSpace/JAVA/zm_src/TestAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jar="/Users/HeiPo/WorkSpace/adt-bundle/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/Users/HeiPo/WorkSpace/JAVA/zm_src/TestAndroid/app/build/intermediates/pre-dexed/debug/classes-cf92a311810b06c139fbe9e60a3d3e02176b96aa.jar" />
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/HeiPo/WorkSpace/vagrant/Centos65/TestAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-15ddeceafbd3f170aa414799ac028e273ed67f25.jar" />
     </item>
     <item
-        jar="/Users/HeiPo/WorkSpace/JAVA/zm_src/TestAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jar="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="/Users/HeiPo/WorkSpace/JAVA/zm_src/TestAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-d203d1a159f96e4cbd1cc3a6e30419fe3ea9f230.jar" />
+        <dex dex="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-f6a4c2c9de7c6239c354599decaff6fc8e8701e9.jar" />
     </item>
     <item
         jar="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
@@ -37,18 +37,25 @@
         <dex dex="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/pre-dexed/debug/classes-7273320954e12fbb01bb2a9ad17f20196855565e.jar" />
     </item>
     <item
-        jar="/Users/HeiPo/WorkSpace/adt-bundle/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jar="/Users/HeiPo/WorkSpace/vagrant/Centos65/TestAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-15ddeceafbd3f170aa414799ac028e273ed67f25.jar" />
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/HeiPo/WorkSpace/vagrant/Centos65/TestAndroid/app/build/intermediates/pre-dexed/debug/classes-0b32bff78e526d28127cc927e4d61e6ce1461d4c.jar" />
     </item>
     <item
-        jar="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jar="/Users/HeiPo/WorkSpace/vagrant/Centos65/TestAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/HeiPo/WorkSpace/vagrant/Centos65/TestAndroid/app/build/intermediates/pre-dexed/debug/classes-1ece3b983f99b15cff42e93c030a31357a51d5c9.jar" />
+    </item>
+    <item
+        jar="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-f6a4c2c9de7c6239c354599decaff6fc8e8701e9.jar" />
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/HeiPo/WorkSpace/JAVA/zm_src/MedaiPlayer/app/build/intermediates/pre-dexed/debug/classes-b4d3d83fc55a53d556ec107a795fc0633f0f9396.jar" />
     </item>
 
 </items>
