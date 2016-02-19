@@ -3,8 +3,9 @@ package com.test.medaiplayer.app;
 import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.view.View;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener{
 
     private MediaPlayerFragment mediaPlayerFragment;
 
@@ -17,5 +18,10 @@ public class MainActivity extends Activity {
         FragmentTransaction transaction = getFragmentManager().beginTransaction();
         transaction.replace(R.id.fl_video, mediaPlayerFragment);
         transaction.commit();
+    }
+
+    @Override
+    public void onClick(View view) {
+
     }
 }
