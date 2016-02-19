@@ -23,5 +23,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
+        Log.d("","");
     }
 }
