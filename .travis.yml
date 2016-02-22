@@ -1,7 +1,7 @@
 language: android
 #script: ./gradlew build assembleRelease
 script:
-- TERM=dumb ./gradlew -i test check coveralls
+- TERM=dumb ./gradlew -i test
 android:
   components:
   - build-tools-23.0.1
