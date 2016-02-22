@@ -1,7 +1,7 @@
 language: android
 #script: ./gradlew build assembleRelease
 script:
-- TERM=dumb ./gradlew -i test
+- TERM=dumb ./gradlew -i test --stacktrace --debug
 android:
   components:
   - build-tools-23.0.1
