@@ -1,5 +1,6 @@
 language: android
 #script: ./gradlew build assembleRelease
+script:
 - TERM=dumb ./gradlew -i test check coveralls
 android:
   components:
