@@ -13,14 +13,13 @@ repositories {
 }
 
 android {
-    compileSdkVersion 22
+    compileSdkVersion 23
     buildToolsVersion "23.0.1"
-//    buildToolsVersion "19.1.0"
 
     defaultConfig {
         applicationId "com.test.medaiplayer.app"
         minSdkVersion 11
-        targetSdkVersion 22
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
     }
@@ -39,7 +38,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-//    compile 'com.android.support:appcompat-v7:23.1.0'
-    compile 'com.android.support:appcompat-v7:22.0.0'
+    compile 'com.android.support:appcompat-v7:23.1.0'
     testCompile "org.robolectric:robolectric:3.0"
 }
