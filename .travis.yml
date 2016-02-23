@@ -10,7 +10,8 @@ android:
   - extra-android-m2repository
 before_deploy:
 #  - cp ./app/build/outputs/apk/*.apk .
-  - ls -al app/build
+  - ls -al app/build/outputs
+  - ls -al app/build/test-results
 deploy:
   provider: releases
   api_key:
