@@ -5,10 +5,11 @@ script: ./gradlew build connectedAndroidTest
 #- TERM=dumb ./gradlew -i test --stacktrace
 android:
   components:
-  - build-tools-23.0.1
+  - build-tools-23.0.2
   - android-23
   - extra-android-support
   - extra-android-m2repository
+  - sys-img-armeabi-v7a-android-23
 before_deploy:
   - ls -al app/build/outputs
 #deploy:
