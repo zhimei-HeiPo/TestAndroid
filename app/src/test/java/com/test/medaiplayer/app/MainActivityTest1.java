@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
  */
 @RunWith(RobolectricGradleTestRunner.class)
 @Config(constants = BuildConfig.class, sdk = Build.VERSION_CODES.LOLLIPOP)
-public class MainActivityTest {
+public class MainActivityTest1 {
 
     // 引用待测Activity
     private MainActivity mActivity;
