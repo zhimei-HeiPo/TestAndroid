@@ -66,6 +66,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundles" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
@@ -98,16 +99,16 @@
     <orderEntry type="library" exported="" scope="TEST" name="icu4j-53.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="accessibility-test-framework-1.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="robolectric-resources-3.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="robolectric-annotations-3.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="ant-launcher-1.8.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="robolectric-annotations-3.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="asm-commons-5.0.1" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="asm-tree-5.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="sqlite4java-0.282" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="asm-tree-5.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="asm-5.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="mockable-android-23" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="shadows-core-3.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="asm-analysis-5.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="robolectric-utils-3.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="asm-analysis-5.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="vtd-xml-2.11" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.8.2" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="asm-util-5.0.1" level="project" />
@@ -116,5 +117,10 @@
     <orderEntry type="library" exported="" name="appcompat-v7-23.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="robolectric-3.0" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-23.0.1" level="project" />
+    <orderEntry type="library" exported="" name="rules-0.41" level="project" />
+    <orderEntry type="library" exported="" name="runner-0.4.1" level="project" />
+    <orderEntry type="library" exported="" name="espresso-core-2.2.1" level="project" />
+    <orderEntry type="library" exported="" name="espresso-iding-resource-2.2.1" level="project" />
+    <orderEntry type="library" exported="" name="uiautomator-v18-2.1.2" level="project" />
   </component>
 </module>

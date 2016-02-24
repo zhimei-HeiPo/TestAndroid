@@ -11,7 +11,10 @@ import android.widget.TextView;
 public class MainActivity extends Activity implements View.OnClickListener{
 
     private MediaPlayerFragment mediaPlayerFragment;
-    private TextView textView;
+    private TextView textView,textLogin;
+
+    public static final String NAME = "android";
+    public static final String PWD = "123456";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +25,19 @@ public class MainActivity extends Activity implements View.OnClickListener{
         //FragmentTransaction transaction = getFragmentManager().beginTransaction();
         //transaction.replace(R.id.fl_video, mediaPlayerFragment);
         //transaction.commit();
+        textLogin = (TextView) findViewById(R.id.tv_login);
         textView = (TextView) findViewById(R.id.tv_content);
         ((Button)findViewById(R.id.bt_click)).setOnClickListener(this);
+
+
+        String name = getIntent().getStringExtra("name");
+        String pwd = getIntent().getStringExtra("pwd");
+
+        if (NAME.equals(name) && PWD.equals(pwd)) {
+            textLogin.setText("登录成功");
+        } else {
+            textLogin.setText("登录失败");
+        }
     }
 
     @Override
