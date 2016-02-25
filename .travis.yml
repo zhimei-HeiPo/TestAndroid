@@ -9,9 +9,12 @@ android:
   - android-23
   - extra-android-support
   - extra-android-m2repository
-  - sys-img-armeabi-v7a-android-21
+  - sys-img-armeabi-v7a-android-23
 before_deploy:
   - ls -al app/build/outputs
+  - echo no | android create avd --force -n test -t android-23 --abi armeabi-v7a
+  - emulator -avd test -no-audio -no-window &
+  - android-wait-for-emulator
 #deploy:
 #  provider: releases
 #  api_key:
