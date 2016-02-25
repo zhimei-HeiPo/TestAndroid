@@ -1,6 +1,6 @@
 language: android
-script: ./gradlew build connectedAndroidTest --stacktrace
-#script: ./gradlew build assembleRelease
+#script: ./gradlew build connectedAndroidTest --stacktrace
+script: ./gradlew build assembleRelease --stacktrace
 #script:
 #- TERM=dumb ./gradlew -i test --stacktrace
 android:
@@ -9,22 +9,22 @@ android:
   - android-23
   - extra-android-support
   - extra-android-m2repository
-  - sys-img-armeabi-v7a-android-19
+#  - sys-img-armeabi-v7a-android-19
 
-before_script:
-  - echo no | android create avd --force -n test -t android-19 --abi armeabi-v7a
-  - emulator -avd test -no-audio -no-window &
-  - android-wait-for-emulator
+#before_script:
+#  - echo no | android create avd --force -n test -t android-19 --abi armeabi-v7a
+#  - emulator -avd test -no-audio -no-window &
+#  - android-wait-for-emulator
 
 before_deploy:
   - ls -al app/build/outputs
-#deploy:
-#  provider: releases
-#  api_key:
-#    secure: QoE5KbKx46TkEgq3b4+eco+JlywefPTLCxNZq/pzEkJwl1gDrY4YcQHeVAZVo+A9bykYhr6ynvE4mk0EGBnKq8oAc1Sg2XKCmuuORUOMu1/4BlvKis7KmRYiNlduFz3EKS68D9cwRYS+h20qdHzbzykUO5fhnFC/o1DAjseaCEjN722bv35Brx0lcxXqzh45exS4LDmn/mnoHKyLGrz5IWdmSxPMcHs1WyRhOO0FeCQlIHn/AwjJbJoMjnur6exz1MX0jZZtyLFlNWYLrWO8xj1w5zB6QT23EuETnri51RbaZm0iVFUBDJkm4u4Yse6jbby9sp1ivKzGE3ibBe83USaz0gT7MKBvn09HM8yyndVOmTBWpcf8+cuqxSoUMCvmfeM3ynL5F55ocV9hRbAS5AlOOpaZWCcKAzPKRBY+Y1oWQsV0zktL9reOmkIUCdRh3+D/84nn62dbVv0l9p09FAwimRvQd1VeJXntbZv8e7GRxPMrjyYJyQL0L/jk1QpuJxTFVwBmIbhATRLh/QpW38hVAZiL7FaH0FvCivrPHD2YJn2agsWiLJ0lj2Pc5Bs7VGYvAUCCzm899Qec0t0Pz42CrCypa3xPOWXRRELdJJH7WXOrZ7bioc5Sz3BK9HoTE+dyQXmHL53wGB3bG07KbK8LEyww9QP03gn8iW3gQgg=
-#  file: app/build/outputs/apk/app-release-unsigned.apk
-#  skip_cleanup: true
+deploy:
+  provider: releases
+  api_key:
+    secure: QoE5KbKx46TkEgq3b4+eco+JlywefPTLCxNZq/pzEkJwl1gDrY4YcQHeVAZVo+A9bykYhr6ynvE4mk0EGBnKq8oAc1Sg2XKCmuuORUOMu1/4BlvKis7KmRYiNlduFz3EKS68D9cwRYS+h20qdHzbzykUO5fhnFC/o1DAjseaCEjN722bv35Brx0lcxXqzh45exS4LDmn/mnoHKyLGrz5IWdmSxPMcHs1WyRhOO0FeCQlIHn/AwjJbJoMjnur6exz1MX0jZZtyLFlNWYLrWO8xj1w5zB6QT23EuETnri51RbaZm0iVFUBDJkm4u4Yse6jbby9sp1ivKzGE3ibBe83USaz0gT7MKBvn09HM8yyndVOmTBWpcf8+cuqxSoUMCvmfeM3ynL5F55ocV9hRbAS5AlOOpaZWCcKAzPKRBY+Y1oWQsV0zktL9reOmkIUCdRh3+D/84nn62dbVv0l9p09FAwimRvQd1VeJXntbZv8e7GRxPMrjyYJyQL0L/jk1QpuJxTFVwBmIbhATRLh/QpW38hVAZiL7FaH0FvCivrPHD2YJn2agsWiLJ0lj2Pc5Bs7VGYvAUCCzm899Qec0t0Pz42CrCypa3xPOWXRRELdJJH7WXOrZ7bioc5Sz3BK9HoTE+dyQXmHL53wGB3bG07KbK8LEyww9QP03gn8iW3gQgg=
+  file: app/build/outputs/apk/app-release-unsigned.apk
+  skip_cleanup: true
 #on:
 #    repo: [deleted]
-#  on:
-#    tags: true
+  on:
+    tags: true
